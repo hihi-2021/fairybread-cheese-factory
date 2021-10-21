@@ -16,7 +16,12 @@ server.set('view engine', 'hbs')
 
 // routes
 server.get('/', (req,res) => {
-    res.sendFile("/views/layouts/main.hbs")
+
+    const viewData = {
+        title: 'The Grate Cheese Off',
+      }
+      const template = 'home'
+      res.render(template, viewData)
 })
 
 
