@@ -1,10 +1,9 @@
 {{>header}}
 
 <div class="container">
-    <p>container <button>vote</button></p>
-     <p>container<button>vote</button></p>
-      <p>container<button>vote</button></p>
-       <p>container<button>vote</button></p>
+    {{#each cheeseSelection}}
+        <img class="img-circle" src="{{image}}" alt="{{name}}">{{name}}{{votes}}
+    {{/each}}
 </div>
 
 <a href="/add"><button class="submit-button" type="submit">ADD CHEESE</button></a>

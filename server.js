@@ -3,6 +3,7 @@ const hbs = require('express-handlebars')
 const fs = require('fs')
 const multer = require('multer')
 const server = express()
+const cheeseData = require('./cheeseData.json')
 
 // middleware
 server.use(express.static('public'))
@@ -15,13 +16,14 @@ server.set('view engine', 'hbs')
 
 
 // routes
-server.get('/:id', (req,res) => {
-    if (req.params.id == "home") {
+server.get('/:title', (req,res) => {
+    if (req.params.title == "home") {
         var viewData = {
             title: 'The Grate Cheese Off',
+            cheeseSelection: cheeseData.cheeseSelection
           }
         var template = 'home'
-    } else if (req.params.id == "add") {
+    } else if (req.params.title == "add") {
         var viewData = {
             title: 'Cheese Culture Factory',
           }
@@ -29,6 +31,13 @@ server.get('/:id', (req,res) => {
     }
       res.render(template, viewData)
 })
+
+// server.get('/', (req, res) => {
+//     fs.readFile('./cheeseData.json', 'utf-8', (err, data) => {
+//       if (err) return res.status(500).send(err.message)
+//       res.render('home', JSON.parse(data))
+//     })
+//   })
 
 
 
