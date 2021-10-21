@@ -1,1 +1,11 @@
-<form action="/add" method="POST">
+<form action="/add" method="POST" enctype="multipart/form-data">
+    <label for="name" class="form-item">
+        Name:
+        <input type="text" name="name" value="Please pick a name">
+    </label>
+
+    <label>
+        Image:
+        <input type="file" name="cheeseImage"/>
+    </label>
+</form>

@@ -2,7 +2,7 @@ const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('fs')
 const multer = require('multer')
-
+const server = express()
 
 // middleware
 server.use(express.static('public'))
