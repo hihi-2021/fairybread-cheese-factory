@@ -7,12 +7,50 @@ body {
 .container{
 
     display: flex; 
-    /* flex-direction: row; */
+    flex-direction: row;
+
+
 }
 
 
 p {
     background-color: #FDCA40;
     margin: 0 10% 0 10%;
+    border-radius: 10px;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #2B0163;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+
 
 }
+
+button {
+    background-color: #87A330;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 80px;
+
+}
+
+.submit-button{
+    padding: 10px 20px 10px 20px;
+    font-size: 50px;
+    }
