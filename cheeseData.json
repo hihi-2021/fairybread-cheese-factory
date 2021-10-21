@@ -1,0 +1,22 @@
+{
+    "cheeseSelection" : [
+        {
+            "id": 1,
+            "votes": 0,
+            "image" : "brieImage.png",
+            "name": "Brie"
+        },
+        {
+            "id": 2,
+            "votes": 0,
+            "image" : "camembertPic.png",
+            "name": "Camembert" 
+        },
+        {
+            "id": 3,
+            "votes": 0,
+            "image" : "swissPic.png",
+            "name": "Swiss" 
+        }
+    ] 
+}
