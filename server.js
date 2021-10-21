@@ -32,12 +32,6 @@ server.get('/:title', (req,res) => {
       res.render(template, viewData)
 })
 
-// server.get('/', (req, res) => {
-//     fs.readFile('./cheeseData.json', 'utf-8', (err, data) => {
-//       if (err) return res.status(500).send(err.message)
-//       res.render('home', JSON.parse(data))
-//     })
-//   })
 
 
 
