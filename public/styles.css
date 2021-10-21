@@ -1,3 +1,18 @@
 body {
-    background-color: blue;
+    background-color:#FAA600;
+}
+
+
+
+.container{
+
+    display: flex; 
+    /* flex-direction: row; */
+}
+
+
+p {
+    background-color: #FDCA40;
+    margin: 0 10% 0 10%;
+
 }
