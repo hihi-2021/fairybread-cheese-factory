@@ -16,7 +16,7 @@ server.set('view engine', 'hbs')
 
 // routes
 server.get('/', (req,res) => {
-    res.send('<h1>hello</h1><p>Bye</p>')
+    res.sendFile("/views/layouts/main.hbs")
 })
 
 
