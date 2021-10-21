@@ -1,8 +1,16 @@
+
+
 {{>header}}
 
 <div class="container">
     {{#each cheeseSelection}}
-        <img class="img-circle" src="{{image}}" alt="{{name}}">{{name}}{{votes}}
+    <div class="individualCheese">
+        <img class="img-circle" src="{{image}}" alt="{{name}}"> <br>
+       <div class="cheeseText"> Name: {{name}} </div> <br>
+       <div class="cheeseText"> Votes:  {{votes}} </div> <br>
+        <button class="voteButton">VOTE</button>
+        </div>
+        
     {{/each}}
 </div>
 

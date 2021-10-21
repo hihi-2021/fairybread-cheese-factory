@@ -1,11 +1,15 @@
+<h1>Add New Cheese</h1>
+
 <form action="/add" method="POST" enctype="multipart/form-data">
     <label for="name" class="form-item">
         Name:
         <input type="text" name="name" value="Please pick a name">
-    </label>
+    </label> <br>
 
     <label>
         Image:
-        <input type="file" name="cheeseImage"/>
-    </label>
+        <input class="uploadButton" type="file" name="cheeseImage"/>
+    </label> <br>
+
+    <button class="addCheese" type="submit">Add Cheese</button>
 </form>
