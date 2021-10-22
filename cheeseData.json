@@ -2,7 +2,7 @@
   "cheeseSelection": [
     {
       "id": 1,
-      "votes": 0,
+      "votes": 1,
       "image": "brieImage.png",
       "name": "Brie"
     },

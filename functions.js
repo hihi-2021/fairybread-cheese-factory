@@ -1,6 +1,6 @@
 const cheeseData = require("./cheeseData.json")
 
-// function newVote(cheeseInfo) {
+function newVote(cheeseInfo) {
 
 //    const newVoteValue =  cheeseInfo.votes + 1
 
@@ -10,11 +10,7 @@ const cheeseData = require("./cheeseData.json")
 //    fs.writeFile( "cheeseData.json",cheeseData, "utf8")
 
 
-// }
-
-
-let testFunc = () => {alert("Hello")}
-
+}
 
 //Cheeseinfo could contain the ID and the vote value of the cheese that was voted for
 
@@ -22,4 +18,4 @@ let testFunc = () => {alert("Hello")}
 
 //
 
-module.exports = testFunc
+module.exports = newVote

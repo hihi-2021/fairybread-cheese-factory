@@ -1,8 +1,9 @@
+
 {{>header}}
 
 <div class="container">
     {{#each cheeseSelection}}
-    <div class="individualCheese">
+    <div class="individualCheese" id={{id}}>
         <img class="img-circle" src="{{image}}" alt="{{name}}"> <br>
         <div class="cheeseText"> Name: {{name}} </div> <br>
         <div class="cheeseText"> Votes:  {{votes}} </div> <br>
@@ -18,3 +19,4 @@
 </div>
 
 <a href="/add"><button class="submit-button" type="submit">ADD CHEESE</button></a>
+

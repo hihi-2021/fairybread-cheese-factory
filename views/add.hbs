@@ -1,15 +1,26 @@
 <h1>Add New Cheese</h1>
 
 <form action="/add" method="POST" enctype="multipart/form-data">
+
+<div class="centerDiv">
+<div class="form-item">
     <label for="name" class="form-item">
         Name:   
         <input type="text" name="name" value="Please pick a name">
     </label> <br>
 
+<div class="form-item">
     <label>
-        Image:
-        <input type="file" name="cheeseImage"/>
+        Image: 
+        <input  type="file" name="cheeseImage"/> 
     </label>
-    <input type="submit" name="" value="Submit">
+    </div><br>
+
+    </div>
+    <div class="form-item">
+
+    <input class="button-add-cheese" type="submit" name="" value="Submit">
+    </div>
+
 
 </form>
