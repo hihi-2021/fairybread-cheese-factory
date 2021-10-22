@@ -2,21 +2,43 @@ body {
     background-color:#FAA600;
 }
 
-
-
-.container{
-
-    display: flex; 
-    flex-direction: row;
-
-
+form{
+    text-align: center;
+    background-color: #FDCA40;
+    border-radius: 10px;
+    margin: 0 200px 0 200px;
+    padding: 50px 20px 50px 20px;
 }
 
 
-p {
+img{
+    height: 200px;
+    width: auto;
+}
+
+
+.container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.cheeseText {
+    font-size: 20px;
+}
+
+.addCheese{
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.individualCheese {
     background-color: #FDCA40;
-    margin: 0 10% 0 10%;
+    margin: 0 1% 0 1%;
     border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
 }
 
 h1{
@@ -26,8 +48,6 @@ h1{
     font-family: 'Lobster', cursive;
     font-size: 60px;
     text-align: center;
-
-
 }
 
 button {
@@ -53,4 +73,15 @@ a{
 .submit-button{
     padding: 10px 20px 10px 20px;
     font-size: 50px;
+    
+
     }
+
+    .submit-button:hover{
+font-size: 55px;  
+
+}
+
+
+    /* Add Cheese Page */
+
