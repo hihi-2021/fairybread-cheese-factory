@@ -66,12 +66,21 @@ server.post('/add', upload.single('cheeseImage'), (req, res)=> {
     
     fs.writeFile('cheeseData.json', JSON.stringify(newData, null, 2), function (err) {
         if (err) throw err
-        
       })
       res.redirect('home')
 })
 
-
+server.post('/home', (req,res) => {
+    let idx = req.body.id
+    let arrIdx = idx - 1
+    let arr = cheeseData.cheeseSelection
+    let voteCount = arr[arrIdx].votes + 1
+    arr[arrIdx].votes = voteCount
+    fs.writeFile('cheeseData.json', JSON.stringify({cheeseSelection : arr}, null, 2), function (err) {
+        if (err) throw err
+    })
+    res.redirect('home')
+})
 
 
 
