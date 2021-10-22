@@ -50,6 +50,24 @@
       "id": 9,
       "image": "1634863178827Thinking-of-getting-a-cat.png",
       "votes": 0
+    },
+    {
+      "name": "test",
+      "id": 10,
+      "image": "1634866402656Thinking-of-getting-a-cat.png",
+      "votes": 0
+    },
+    {
+      "name": "fes",
+      "id": 11,
+      "image": "1634867436321Thinking-of-getting-a-cat.png",
+      "votes": 0
+    },
+    {
+      "name": "fdf",
+      "id": 12,
+      "image": "1634867461788Thinking-of-getting-a-cat.png",
+      "votes": 0
     }
   ]
 }
