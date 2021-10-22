@@ -60,8 +60,8 @@ server.post('/add', upload.single('cheeseimg'), (req, res)=> {
     const newData = {cheeseSelection: newCheeseList}
 	
 	
-}	
-})
+}	  
+)
 
 // server.get('/', (req, res) => {
 //     fs.readFile('./cheeseData.json', 'utf-8', (err, data) => {
