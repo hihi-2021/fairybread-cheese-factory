@@ -7,8 +7,14 @@
         <img class="img-circle" src="{{image}}" alt="{{name}}"> <br>
        <div class="cheeseText"> Name: {{name}} </div> <br>
        <div class="cheeseText"> Votes:  {{votes}} </div> <br>
-        <button class="voteButton">VOTE</button>
-        </div>
+       <form action="/home" method="POST">
+      <label class="voteButton">
+          <input type="hidden" name="id" value="{{id}}">
+          <input  type="submit" name="" value="VOTE">
+      </label>
+      </form>
+        <!--<button class="voteButton">VOTE</button>-->
+    </div> 
     {{/each}}
 </div>
 
