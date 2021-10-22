@@ -1,17 +1,19 @@
-const cheeseData = require("cheeseData")
+const cheeseData = require("./cheeseData.json")
 
-function newVote(cheeseInfo) {
+// function newVote(cheeseInfo) {
 
-   const newVoteValue =  cheeseInfo.votes + 1
+//    const newVoteValue =  cheeseInfo.votes + 1
 
-   const found = cheeseData.find(cheese => cheese.id === cheeseInfo.id);
-   found.votes = newVoteValue
+//    const found = cheeseData.find(cheese => cheese.id === cheeseInfo.id);
+//    found.votes = newVoteValue
 
-   fs.writeFile( "cheeseData.json",cheeseData, "utf8")
+//    fs.writeFile( "cheeseData.json",cheeseData, "utf8")
 
 
-}
+// }
 
+
+let testFunc = () => {alert("Hello")}
 
 
 //Cheeseinfo could contain the ID and the vote value of the cheese that was voted for
@@ -20,4 +22,4 @@ function newVote(cheeseInfo) {
 
 //
 
-module.exports = newVote
+module.exports = testFunc

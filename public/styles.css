@@ -4,6 +4,7 @@ body {
 
 form{
     text-align: center;
+    font-size: 25px;
     background-color: #FDCA40;
     border-radius: 10px;
     margin: 0 200px 0 200px;
@@ -16,11 +17,11 @@ img{
     width: auto;
 }
 
-
 .container{
     display: flex; 
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -35,7 +36,7 @@ img{
 
 .individualCheese {
     background-color: #FDCA40;
-    margin: 0 1% 0 1%;
+    margin: 1% 1% 1% 1%;
     border-radius: 10px;
     text-align: center;
     padding: 20px 20px 20px 20px;
