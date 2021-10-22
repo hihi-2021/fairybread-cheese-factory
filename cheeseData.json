@@ -17,39 +17,6 @@
       "votes": 0,
       "image": "swissPic.png",
       "name": "Swiss"
-    },
-    {
-      "name": "raz",
-      "id": 4,
-      "image": "1634858529282Bleu_de_Gex.jpg"
-    },
-    {
-      "name": "razzzzz",
-      "id": 5,
-      "image": "1634858602034Bleu_de_Gex.jpg"
-    },
-    {
-      "name": "bobdsbajds",
-      "id": 6,
-      "image": "1634858665340Bleu_de_Gex.jpg"
-    },
-    {
-      "name": "My new cheese",
-      "id": 7,
-      "image": "1634861877920Thinking-of-getting-a-cat.png",
-      "votes": 0
-    },
-    {
-      "name": "my cat cheese",
-      "id": 8,
-      "image": "1634861907754Thinking-of-getting-a-cat.png",
-      "votes": 0
-    },
-    {
-      "name": "Cat ",
-      "id": 9,
-      "image": "1634863178827Thinking-of-getting-a-cat.png",
-      "votes": 0
     }
   ]
 }
