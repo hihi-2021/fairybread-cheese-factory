@@ -71,10 +71,16 @@ server.post('/add', upload.single('cheeseImage'), (req, res)=> {
       res.redirect('home')
 })
 
+server.post('/home', (req,res) => {
+  let cheeseId = req.body.id
+  console.log(cheeseId)
 
+  /*fs.writeFile('cheeseData.json', JSON.stringify({cheeseSelection : arr}, null, 2), function (err) {
+      if (err) throw err
+    })
+    res.redirect('home')*/
 
-
-
+})
 
 
 module.exports = server
