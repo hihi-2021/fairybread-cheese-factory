@@ -47,7 +47,7 @@ server.get('/:title', (req,res) => {
       res.render(template, viewData)
 })
 
-server.post('/add', upload.single('cheeseimg'), (req, res)=> {
+server.post('/add', upload.single('cheeseImage'), (req, res)=> {
 	const newCheeseData = req.body
 	/*fs.readFile('./cheeseData.json', (err, data) => {
 	if (err) console.log(err)
@@ -56,11 +56,15 @@ server.post('/add', upload.single('cheeseimg'), (req, res)=> {
 	let newCheeseId = Math.max(...cheeseList.map(el => el.id)) + 1
 	newCheeseData.id = newCheeseId
 	newCheeseData.image = req.file.filename
+    newCheeseData.votes = 0
     const newCheeseList = [...cheeseList, newCheeseData]
     const newData = {cheeseSelection: newCheeseList}
-	
-	
-}	
+    
+    fs.writeFile('cheeseData.json', JSON.stringify(newData, null, 2), function (err) {
+        if (err) throw err
+        res.redirect('home')
+      })
+
 })
 
 
