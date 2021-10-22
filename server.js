@@ -4,6 +4,8 @@ const fs = require('fs')
 const multer = require('multer')
 const server = express()
 const cheeseData = require('./cheeseData.json')
+const testFunc = require('./functions')
+
 
 // multer configuration
 
@@ -45,6 +47,7 @@ server.get('/:title', (req,res) => {
         var template = 'add'
     }
       res.render(template, viewData)
+      
 })
 
 server.post('/add', upload.single('cheeseImage'), (req, res)=> {

@@ -32,6 +32,24 @@
       "name": "bobdsbajds",
       "id": 6,
       "image": "1634858665340Bleu_de_Gex.jpg"
+    },
+    {
+      "name": "My new cheese",
+      "id": 7,
+      "image": "1634861877920Thinking-of-getting-a-cat.png",
+      "votes": 0
+    },
+    {
+      "name": "my cat cheese",
+      "id": 8,
+      "image": "1634861907754Thinking-of-getting-a-cat.png",
+      "votes": 0
+    },
+    {
+      "name": "Cat ",
+      "id": 9,
+      "image": "1634863178827Thinking-of-getting-a-cat.png",
+      "votes": 0
     }
   ]
 }
